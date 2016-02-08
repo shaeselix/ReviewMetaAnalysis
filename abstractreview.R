@@ -10,7 +10,7 @@
 require(RISmed)
 
 abstractreview <- function(query,db="pubmed",mindate=NULL,maxdate=NULL,retmax=1000) {
-  res <- EUtilsSummary(query)
+  res <- EUtilsSummary(query,db,mindate,maxdate,retmax)
   summary(res)
   N.1 <- QueryCount(res)
   ar <- readline("Proceed with Abstract Review? (y/n) ")
