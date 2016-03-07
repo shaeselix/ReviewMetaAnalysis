@@ -1,4 +1,4 @@
-# functioned designed to take in a dataframe with the 
+# function designed to take in a dataframe with the 
 # columns defined in as.metadf and return the inverse
 # variance weighted estimate and confidence interval.
 # For the DerSimonian-Laird random-effects model,
